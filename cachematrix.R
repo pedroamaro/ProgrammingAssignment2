@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## With these functions, its possible to save a matrix that can be invertible and determine its inverse.
 
-## Write a short comment describing this function
+## With the first function (makeCacheMatrix), we create a matrix and we can cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
         i <- NULL
@@ -18,10 +17,10 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## With the second function, we calculate the inverse of matrix x. If the inverse is already in cache, 
+## then it is returned.
 
 cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
         i<- x$getinverse()
         if(!is.null(i)) {
                 message("getting cached data")
