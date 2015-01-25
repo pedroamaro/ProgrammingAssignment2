@@ -1,4 +1,4 @@
-## With these functions, its possible to save a matrix that can be invertible and determine its inverse.
+## With these functions, it is possible to save a matrix that can be invertible and determine its inverse.
 
 ## With the first function (makeCacheMatrix), we create a matrix and we can cache its inverse.
 
